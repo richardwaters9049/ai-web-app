@@ -2,6 +2,8 @@
 import React from "react";
 import { Vortex } from "../components/ui/vortex";
 import { Button } from '@/components/ui/button';
+import Link from "next/link";
+
 
 
 export function VortexDemo() {
@@ -18,7 +20,10 @@ export function VortexDemo() {
                     <h2 className="text-9xl font-semibold text-center text-white tracking-widest my-10">
                         LyrAI
                     </h2>
-                    <Button className="text-white text-2xl tracking-widest bg-gradient-to-t from-purple-800 to-blue-800 p-10 rounded-xl">ENTER</Button>
+
+                    <Link href="/dashboard">
+                        <Button className="text-white text-2xl tracking-widest bg-gradient-to-t from-purple-800 to-blue-800 p-10 rounded-xl">ENTER</Button>
+                    </Link>
                 </div>
 
             </Vortex>
