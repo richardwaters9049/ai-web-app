@@ -250,8 +250,6 @@ export const Vortex = (props: VortexProps) => {
 
             <div className={cn("relative z-10 flex flex-col gap-40 justify-around items-center", props.className)}>
                 {props.children}
-                <h1 className="text-white text-8xl tracking-widest">LyrAI</h1>
-                <Button className="text-white text-4xl tracking-widest">Enter</Button>
             </div>
         </div>
     );
